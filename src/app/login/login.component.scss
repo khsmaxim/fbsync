@@ -1,0 +1,25 @@
+.login-component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  > button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 32px;
+    .icon {
+      background-image: url('../../assets/icons/66903-google-pay-gboard-platform-logo-cloud.png');
+      width: 32px;
+      height: 32px;
+      background-size: 32px;
+      display: inline-block;
+      float: left;
+      margin-right: 9px;
+    }
+  }
+}
